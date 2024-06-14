@@ -2,6 +2,9 @@
 
 <img src="./Assets/PikunikkuLogoCircle.png" alt="Pikunikku Logo" style="height: 300px; width: 300px;"/>
 
+## Site
+Visit the deployed project at: [Pikunikku Sticker Catalogue](https://github.com/revou-fsse-5/module-1-ciceiy/blob/main/index.html)
+
 ## About
 Pikunikku is a sticker shop that sells a collection of stickers and merchandise. Based in Cirebon, Indonesia, Pikunikku also offers unique illustrations and custom commissions.
 
