@@ -1,6 +1,6 @@
 # Pikunikku - Sticker Catalogue
 
-<img src="./Assets/PikunikkuLogoCircle.png" alt="Pikunikku Logo" style="height: 300px; width:300px;"/>
+<img src="./Assets/PikunikkuLogoCircle.png" alt="Pikunikku Logo" style="height: 300px; width: 300px;"/>
 
 ## About
 Pikunikku is a sticker shop that sells a collection of stickers and merchandise. Based in Cirebon, Indonesia, Pikunikku also offers unique illustrations and custom commissions.
