@@ -16,11 +16,10 @@ body {
   top: 0;
 }
 
-.header p {
+.header h1 {
   text-align: center;
   color: #ffffff;
   font-size: 85px;
-  font-weight: bold;
   margin-bottom: 5px;
 }
 
@@ -155,9 +154,8 @@ body {
   .header {
     border-radius: 15px;
   }
-  .header p {
+  .header h1 {
     font-size: 50px;
-    font-weight: lighter;
   }
 
   .about {
@@ -173,20 +171,51 @@ body {
 
   .table-row {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
   }
 
   .table-cell {
     display: flex;
+    flex: 1 1 50%;
     flex-direction: column;
     text-align: center;
     padding: 10px;
+  }
+
+  .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 80%;
+    border: 1px solid #cccccc;
+    padding: 10px 10px;
+  }
+
+  .form-submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-submit input[type="submit"] {
+    padding: 10px;
+    background-color: #28a745;
+    color: #ffffff;
+    width: 50%;
+    max-width: 300px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .table-cell {
     display: flex;
+    flex: 1 50%;
     flex-direction: column;
     text-align: center;
     padding: 10px;
