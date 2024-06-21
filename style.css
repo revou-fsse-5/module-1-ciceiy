@@ -1,0 +1,194 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("./Assets/CarrdBackground.png");
+}
+
+.header {
+  width: 80%;
+  margin: auto;
+  padding: 2.5px;
+  background: #a4624d;
+  margin-top: 50px;
+  border-radius: 200px;
+  position: sticky;
+  top: 0;
+}
+
+.header p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 85px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.header h2 {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.about {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background: #d4a67c;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border-radius: 400px;
+}
+
+.about h2 {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.about p {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.social-links a {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #a4624d;
+}
+
+.catalogue {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  background: #ffffff;
+  margin: 20px 0;
+}
+
+.catalogue h2 {
+  text-align: center;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.product-table {
+  display: table;
+  width: 50%;
+  margin: auto;
+}
+
+.table-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.table-cell {
+  display: flex;
+  flex: 1 1 25%;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+
+.table-cell img {
+  width: 100%;
+}
+
+.contact {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.contact h2 {
+  text-align: center;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.form-group {
+  width: 30%;
+  margin: auto;
+  padding: 1px;
+}
+
+.form-group p {
+  margin: 5px 0;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 97%;
+  border: 1px solid #cccccc;
+  padding: 10px 10px;
+}
+
+.form-submit {
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.form-submit input[type="submit"] {
+  padding: 10px;
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    border-radius: 15px;
+  }
+  .header p {
+    font-size: 50px;
+    font-weight: lighter;
+  }
+
+  .about {
+    border-radius: 15px;
+    width: 73%;
+  }
+
+  .social-links a {
+    width: 50px;
+    padding-right: 30px;
+    padding-left: 15px;
+  }
+
+  .table-row {
+    display: flex;
+    width: 100%;
+  }
+
+  .table-cell {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .table-cell {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+}
